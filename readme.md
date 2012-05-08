@@ -35,5 +35,5 @@ scalatra_version [2.0.4]:
 scala_version [2.9.1]:
 objectify_version [4.0a3]:
 
-Applied bruntonspall/appengine-objectify-scala.g8 in my-test-apps
+Applied bruntonspall/appengine-objectify-scala.g8 in my-test-app
 ```

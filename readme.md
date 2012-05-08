@@ -19,3 +19,21 @@ Lots of bits inspired by [Jorrit Posthuma](http://thoughtsofthree.com/2012/04/sc
 Enjoy
 
 Michael Brunton-Spall
+
+Usage
+-----
+
+```
+(mbrunton-spall@GNM31330 ~/work)% g8 bruntonspall/appengine-objectify-scala.g8
+
+Using Scalatra on Appengine with Objectify to make life simple, try
+this project to get started
+
+package [com.example]: co.uk.bruntonspall
+name [My Scalatra AppEngine Objectify Project]: My Test App
+scalatra_version [2.0.4]:
+scala_version [2.9.1]:
+objectify_version [4.0a3]:
+
+Applied bruntonspall/appengine-objectify-scala.g8 in my-test-apps
+```

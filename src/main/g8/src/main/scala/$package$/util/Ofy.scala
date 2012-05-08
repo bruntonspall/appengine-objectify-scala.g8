@@ -5,8 +5,9 @@ import com.google.appengine.api.datastore.ReadPolicy.Consistency
 import com.googlecode.objectify.cmd.{Deleter,Saver,Loader,LoadType}
 import com.googlecode.objectify.{ObjectifyService, TxnWork, ObjectifyFactory, Objectify}
 import com.googlecode.objectify.util.cmd.LoaderWrapper
-import com.example.model.User
 import util.DynamicVariable
+
+import $package$.model.User
 
 /* Provides a loader that has a kind method that defers to type since type is reserved in scala */
 class ScalaLoader(val loader: Loader) extends LoaderWrapper[ScalaLoader](loader) {  

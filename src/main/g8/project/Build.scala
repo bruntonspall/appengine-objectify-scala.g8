@@ -1,7 +1,7 @@
 import sbt._
 import Keys._
 import sbtappengine.Plugin.appengineSettings
-import com.typesafe.sbtscalariform.ScalariformPlugin.scalariformSettings
+import com.typesafe.sbt.SbtScalariform.scalariformSettings
 import twirl.sbt.TwirlPlugin._
 
 object $name;format="camel"$Build  extends Build {

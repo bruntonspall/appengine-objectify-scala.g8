@@ -20,7 +20,7 @@ object $name;format="camel"$Build  extends Build {
     shellPrompt := { s => Project.extract(s).currentProject.id + " > " }
   }
 
-  lazy val root = Project(id="$name$", base=file("."))
+  lazy val root = Project(id="$name;format="camel"$", base=file("."))
     .settings(
       libraryDependencies ++= Seq(
         "com.googlecode.objectify" % "objectify" % "$objectify_version$",

@@ -22,6 +22,10 @@ object $name;format="camel"$Build  extends Build {
 
   lazy val root = Project(id="$name;format="camel"$", base=file("."))
     .settings(
+      resolvers ++= Seq(
+        "objectivy repo" at "http://maven.objectify-appengine.googlecode.com/git/")
+      )
+    .settings(
       libraryDependencies ++= Seq(
         "com.googlecode.objectify" % "objectify" % "$objectify_version$",
         "org.scalatra" %% "scalatra" % "$scalatra_version$",
